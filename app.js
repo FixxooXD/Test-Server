@@ -4,9 +4,9 @@ const path = require('path');
 const port =process.env.port || 8080;
 
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
+// app.get('/', function (req, res) {
+//   res.send('Hello World')
+// })
 
 // app.use(express.static("public"));
 
