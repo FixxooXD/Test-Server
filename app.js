@@ -8,7 +8,7 @@ const port =process.env.port || 8080;
 //   res.send('Hello World')
 // })
 
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname,"public/index.html");
